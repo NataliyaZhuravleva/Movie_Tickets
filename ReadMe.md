@@ -48,7 +48,9 @@ Describe: movieList.addMovie(movie):
 1. Test: "It adds movie to movieList.movies array"<br>
     Expect: (movieList.addMovie(movie1)).toEqual(movieList.movies[0] = Movie {movieName: "Braveheart", moviePrice: 5, movieRelease: 0});
 
-
+Describe: showMovieListCheckbox(movieListToShow):
+1. Test "It shows checkbox with movies"<br>
+    Expect: (howMovieListCheckbox(movieList)).Equal(moviesList.html(<option value=1>Braveheart</option><option value=2>Tenet</option><option value=3>The Mandalorian</option><option value=4>Joker</option>));
 
 ### <span style="color:#0ec2b8">License</span> 
 
